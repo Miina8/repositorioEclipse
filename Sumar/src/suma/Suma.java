@@ -12,6 +12,7 @@ public class Suma {
 	public static void suma() {
 		int a,b, resultado;
 		String respuesta="s";
+	try {
 		
 		Scanner teclado =new Scanner(System.in);
 		while (respuesta=="s"){
@@ -31,7 +32,11 @@ public class Suma {
 			respuesta=teclado.next();
 		}
 		teclado.close();
-		
+	}
+	catch(Exception ex)
+	{
+		System.out.println("error");
+	}
 		
 	}
 }
