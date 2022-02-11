@@ -20,6 +20,7 @@ public class Suma {
 			a=teclado.nextInt();
 			System.out.println("Introduce otro número positivo:");
 			//nuevo comentario de prueba
+			//nueuvp
 			b=teclado.nextInt();
 			if ((a > 0) && (b >0)) {
 				resultado= a+b;
@@ -32,7 +33,7 @@ public class Suma {
 			System.out.println("¿Quieres seguir sumando? s/n");
 			respuesta=teclado.next();
 		}
-		teclado.close();
+		teclado.close(); //estamos modificando en la rama de desarrollo
 	}
 	catch(Exception ex)
 	{
