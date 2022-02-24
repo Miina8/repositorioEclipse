@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Suma {
 
 	public static void main(String[] args) {
-		// TODO Esbozo de método generado automáticamente
+		// TODO Esbozo de mÃ©todo generado automÃ¡ticamente
 		//nuevo cambio desde local
 		suma();
 	}
+	//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 	public static void suma() {
 		int a,b, resultado;
@@ -17,9 +18,9 @@ public class Suma {
 		
 		Scanner teclado =new Scanner(System.in);
 		while (respuesta=="s"){
-			System.out.println("Introduce un número positivoo:");
+			System.out.println("Introduce un nÃºmero positivoo:");
 			a=teclado.nextInt();
-			System.out.println("Introduce otro número positivoo:");
+			System.out.println("Introduce otro nÃºmero positivoo:");
 			//nuevo comentario de prueba
 			//nueuvp
 			b=teclado.nextInt();
@@ -31,7 +32,7 @@ public class Suma {
 			else {
 				System.out.println("No son positivos");
 			}
-			System.out.println("¿¿¿¿Quieres seguir sumando??? s/n");
+			System.out.println("Â¿Â¿Â¿Â¿Quieres seguir sumando??? s/n");
 			respuesta=teclado.next();
 			//aaaaaaaaaa
 		}
