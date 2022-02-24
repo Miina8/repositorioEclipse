@@ -6,6 +6,7 @@ public class Suma {
 
 	public static void main(String[] args) {
 		// TODO Esbozo de método generado automáticamente
+		//nuevo cambio desde local
 		suma();
 	}
 
@@ -16,9 +17,9 @@ public class Suma {
 		
 		Scanner teclado =new Scanner(System.in);
 		while (respuesta=="s"){
-			System.out.println("Introduce un número positivo:");
+			System.out.println("Introduce un número positivoo:");
 			a=teclado.nextInt();
-			System.out.println("Introduce otro número positivo:");
+			System.out.println("Introduce otro número positivoo:");
 			//nuevo comentario de prueba
 			//nueuvp
 			b=teclado.nextInt();
