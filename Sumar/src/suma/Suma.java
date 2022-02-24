@@ -31,8 +31,9 @@ public class Suma {
 			else {
 				System.out.println("No son positivos");
 			}
-			System.out.println("¿Quieres seguir sumando? s/n");
+			System.out.println("¿¿¿¿Quieres seguir sumando??? s/n");
 			respuesta=teclado.next();
+			//newnewnewnew
 		}
 		teclado.close(); //estamos modificando en la rama de desarrollo
 	}
